@@ -3,7 +3,7 @@
 int a,b,c;
 
 int count_strike(int d,int e, int f) {
-int cnt=0;
+    int cnt=0;
     if (a==d)cnt++;
     if (b==e)cnt++;
     if (c==f)cnt++;
