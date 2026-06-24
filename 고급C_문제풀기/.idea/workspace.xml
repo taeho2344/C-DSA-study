@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42cd03a2-dde1-4a8c-b065-c79fda014c34" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/editor.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/고급C_문제풀기.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-4.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-5.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-6.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-6.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-7.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-7.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-8.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-3-8.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-10.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-10.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-11.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-11.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-12.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-12.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-13.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-13.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-14.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-14.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-9.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/8-4-9.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-1-1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-1-1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-2-2.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-2-2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-2-3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-2-3.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-2-4.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-2-4.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-2-5.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-2-5.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-2-6.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-2-6.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-10.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-10.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-11.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-11.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-12.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-12.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-13.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-13.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-14.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-14.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-7.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-7.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-8.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-8.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-9.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9-4-9.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;taeho2344&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/taeho2344/C-DSA-study.git&quot;,
+    &quot;accountId&quot;: &quot;f869dcef-04bc-416d-ae44-2aa3f904f22f&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../advanced_C_assignments/9-4-14.c" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="gTOaxGWu" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2026" />
+    <option name="minorVersion" value="1.3" />
+    <option name="productBranch" value="Classic" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3FaYquzWnXYCXETVFdQehuLbulx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.RadMigrateCodeStyle&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.west.config.association.type.startup.service&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MSI/CLionProjects/college/study/고급C_문제풀기&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="42cd03a2-dde1-4a8c-b065-c79fda014c34" name="변경" comment="" />
+      <created>1782314843846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782314843846</updated>
+      <workItem from="1782314845241" duration="46000" />
+      <workItem from="1782314898561" duration="176000" />
+      <workItem from="1782315118783" duration="1000" />
+      <workItem from="1782315126544" duration="614000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+    <isAutomaticBootstrapAfterUpdate value="false" />
+  </component>
+</project>
