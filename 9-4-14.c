@@ -1,3 +1,5 @@
-//
-// Created by MSI on 26. 6. 25..
-//
+#include <stdio.h>
+int main() {
+    printf("asdf");
+    return 0;
+}
