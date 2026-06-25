@@ -13,13 +13,29 @@ int changeseat(int *ar) {
             continue;
         }
         return i;
-
     }
 }
 void rebooking(int *ar) {
+    int c[21]={0};
     int *p=ar;
-    for (;p<ar+21;p++) {
-        if ()
+    for (p=ar;p<ar+21&&*p!=0;p++) {
+        (*(c+*p-1))++;
+    }
+    for (p=ar;p<ar+21&&*p!=0;p++) {
+        if (*(c+*p-1)>1) {
+            int flag=0;
+            for (int *q=ar;q<p;q++) {
+                if (*q==*p) {
+                    flag=1;
+                    break;
+                }
+            }
+            if (!flag) {
+                continue;
+            }
+            (*(c+*p-1))--;
+            *p=changeseat(ar);
+        }
     }
 }
 int passengerN(int n) {
@@ -28,27 +44,20 @@ int passengerN(int n) {
 int main() {
     setbuf(stdout,NULL);
     int n;
-    int s[21]={0},c[21]={0};
+    int s[21]={0};
     int *p=s;
     scanf("%d",&n);
     if (passengerN(n)==-1) {
         printf("-1\n");
         return 0;
     }
+    printf("0");
     for (;p<s+n;p++) {
         scanf("%d",p);
     }
-    int flag=0;
+    rebooking(s);
     for (p=s;p<s+n;p++) {
-        (*(c+*p-1))++;
+        printf("%d ",*p);
     }
-    for (p=s;p<s+n;p++) {
-        if (*(c+*p-1)>1) {
-            printf("%d %d\n",*p,*(c+*p-1));
-            *(c+*p-1)=0;
-            flag=1;
-        }
-    }
-    if (!flag)printf("0");
     return 0;
 }

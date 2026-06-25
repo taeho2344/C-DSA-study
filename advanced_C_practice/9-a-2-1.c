@@ -12,10 +12,10 @@ int main() {
     for (;p<s+n;p++) {
         scanf("%d",p);
     }
-    int flag=0;
     for (p=s;p<s+n;p++) {
         (*(c+*p-1))++;
     }
+    int flag=0;
     for (p=s;p<s+n;p++) {
         if (*(c+*p-1)>1) {
             printf("%d %d\n",*p,*(c+*p-1));
