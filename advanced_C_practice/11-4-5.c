@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-typedef struct {
+typedef struct student{
     char *name;
-    int s1,s2,s3;
+    int korean, english, math;
     double avg;
+    char GPA;
 }S;
 int main() {
     setbuf(stdout,NULL);
@@ -20,14 +21,15 @@ int main() {
             return 1;
         }
         strcpy(p->name,tmp);
-        scanf("%d %d %d",&p->s1,&p->s2,&p->s3);
-        p->avg=(double)(p->s1+p->s2+p->s3)/3.0;
+        scanf("%d %d %d",&p->korean,&p->english,&p->math);
+        p->avg=(double)(p->korean+p->english+p->math)/3.0;
         printf("%s %.1f ",p->name,p->avg);
+        if (p->avg>=90)p->GPA='A';
+        else if (p->avg>=80)p->GPA='B';
+        else if (p->avg>=70)p->GPA='C';
+        else p->GPA='D';
+        printf("%s %.1f %c",p->name,p->avg,p->GPA);
         free(p->name);
-        if (p->avg>=90)printf("A");
-        else if (p->avg>=80)printf("B");
-        else if (p->avg>=70)printf("C");
-        else printf("F");
         printf("\n");
     }
     free(s);
