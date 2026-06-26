@@ -57,4 +57,5 @@ add_executable(study 8-3-1.c
         11-p-1.c
         11-p-2.c
         "11-p-3.c"
-        11-p-4.c)
+        11-p-4.c
+        11-p-6.c)
