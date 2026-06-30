@@ -11,9 +11,14 @@ typedef struct {
     double pc;
 }S;
 void display(S *s,int n) {
+    double ss=0,ds=0,ts=0;
     for (S *p=s;p<s+n;p++) {
         printf("%4d %8d %c %.0f\n",p->id,p->ph,p->mc,p->pc);
+        if (p->mc=='S')ss+=p->pc;
+        else if (p->mc=='D')ds+=p->pc;
+        ts+=p->pc;
     }
+    printf("%.0f %.0f %.0f\n",ds,ss,ts);
 
 }
 void compute(S *p) {
@@ -38,6 +43,39 @@ void compute(S *p) {
             break;
     }
     if (p->t>240)p->pc+=(double)200*(double)((p->t-240)/10);
+}
+void parking_info_sort(S *s,int n) {
+    S *p=s;
+    for (int i=0;i<n-1;i++) {
+        for(p=s;p<s+n-1;p++) {
+            if (p->mc=='S'&&(p+1)->mc=='D') {
+                S tmp=*p;
+                *p=*(p+1);
+                *(p+1)=tmp;
+            }
+        }
+    }
+    int d=0;
+    for (p=s;p<s+n&&p->mc=='D';p++,d++);
+
+    for (int i=0;i<n-1;i++) {
+        for (p=s;p<s+d-1;p++) {
+            if (p->id>(p+1)->id) {
+                S tmp=*p;
+                *p=*(p+1);
+                *(p+1)=tmp;
+            }
+        }
+    }
+    for (int i=0;i<n-1;i++) {
+        for (p=s+d;p<s+n-1;p++) {
+            if (p->id>(p+1)->id) {
+                S tmp=*p;
+                *p=*(p+1);
+                *(p+1)=tmp;
+            }
+        }
+    }
 }
 void input(S *s,int n) {
     for (S *p=s;p<s+n;p++) {
@@ -65,6 +103,7 @@ int main() {
     s=tmp;
 
     input(s,n);
+    parking_info_sort(s,n);
     display(s,n);
     free(s);
     return 0;
